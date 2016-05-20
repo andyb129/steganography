@@ -4,9 +4,18 @@
     tools:context="com.stealthcotper.steg.MainActivity"
     >
   <item
-      android:id="@+id/action_settings"
-      android:title="@string/action_settings"
-      android:orderInCategory="100"
-      app:showAsAction="never"
-      />
+      android:id="@+id/action_add_image"
+      android:title="@string/action_load_image"
+      android:icon="@drawable/ic_photo_white_24dp"
+      app:showAsAction="always"/>
+  <item
+      android:id="@+id/action_encode_message"
+      android:title="@string/action_encode_message"
+      android:icon="@drawable/ic_visibility_off_white_24dp"
+      app:showAsAction="always"/>
+  <item
+      android:id="@+id/action_decode_message"
+      android:title="@string/action_decode_message"
+      android:icon="@drawable/ic_visibility_white_24dp"
+      app:showAsAction="always"/>
 </menu>

@@ -1,4 +1,21 @@
 <resources>
   <string name="app_name">Steg</string>
-  <string name="action_settings">Settings</string>
+  <string name="action_load_image">Select Image</string>
+  <string name="action_encode_message">Encode Message</string>
+  <string name="action_decode_message">Decode Message</string>
+  <string name="encode_text_message">Enter text to encode into image</string>
+  <string name="encode_text_title">Text to Encode</string>
+  <string name="encode_text_ok">OK</string>
+  <string name="encode_text_cancel">Cancel</string>
+  <string name="text_encode_hint">Text to encode into image</string>
+  <string name="dialog_button_ok">OK</string>
+  <string name="dialog_button_cancel">Cancel</string>
+  <string name="encoding_text">ENCODING TEXT INTO IMAGE</string>
+  <string name="select_image_help_text">SELECT AN IMAGE TO ENCODE</string>
+  <string name="encoded_string_display"><![CDATA[ENCODED TEXT ~> %s]]></string>
+  <string name="encoded_error">Sorry, error encoding text into image</string>
+  <string name="decoded_text_display"><![CDATA[DECODED TEXT ~> %s]]></string>
+  <string name="decoded_error">Sorry, error decoding text from image</string>
+  <string name="encode_no_image_error">No encoded image.  Please create one.</string>
+  <string name="encoded_ready_for_share">ENCODED IMAGE READY FOR SHARING.</string>
 </resources>
